@@ -1,8 +1,11 @@
-function takeANumber(line,name){
-  var x = line.length+1;
-  line.push(name);
-  var welcome = "Welcome, " + name +". You are number "+ x +" in line.";
-  console.log(welcome);
+var array = [];
+console.log("what is in  my",array);
+
+function takeANumber(line){
+  var y = line.length+1;
+  var welcome = "You are number "+ y +" in line.";
+  array.push(welcome);
+  console.log("111111",array);
   return welcome;
 }
 
